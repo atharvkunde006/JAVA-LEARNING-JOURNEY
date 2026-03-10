@@ -1,18 +1,14 @@
+
+//find greater number using ternary oprator
+package atharv;
+
 public class demo {
-    public static void main(String[] Args) {
-        String name = "Atharv";
-        int age = 20;
-        float per = 99.98f;
-        char div = 'c';
-        boolean result = true;
-        boolean result2 = false;
-        System.out.println("My name:" + name);
-        System.out.println("My age is :" + age);
-        System.out.println("My pecenteage is" + per);
-        System.out.println("My div :" + div);
-        System.out.println("My result is:" + result);
-        System.out.println("My age is :" + result2);
-
-    }
-
+public static void main(String[]args){
+int a=10;
+int b=40;
+int c=30;
+int res=a>b?(a>c?a:c):(b>c?b:c);
+System.out.println(res);
+System.out.println('c'*20+(30*2)+"res");
+}
 }
